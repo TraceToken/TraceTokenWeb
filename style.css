@@ -196,7 +196,7 @@ img{
 }
 
 .tamaño {
-    font-size: 24px;
+    font-size: 50px;
 }
 
 /* Estilos para pantallas de hasta 768px de ancho (tablets) */
@@ -222,6 +222,10 @@ img{
     .seccion-larga {
         padding: 20px;
     }
+
+    .tamaño {
+    font-size: 15px;
+}
 
     /* Ajustar el footer si es necesario */
     footer {
@@ -262,6 +266,11 @@ img{
         width:300px;
         heigth:110px;
     }
+
+      .tamaño {
+    font-size: 15px;
+}
+
 
     /* Ajustes adicionales si son necesarios */
 }
