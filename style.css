@@ -195,6 +195,66 @@ img{
     color: lavender;
 }
 
+/* Estilos para pantallas de hasta 768px de ancho (tablets) */
+@media (max-width: 768px) {
+    header {
+        padding: 1em 0;
+    }
 
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .seccion-principal {
+        width: 100%; /* Ocupar todo el ancho en pantallas más pequeñas */
+        margin-bottom: 20px;
+    }
+
+    .seccion-larga {
+        padding: 20px;
+    }
+
+    /* Ajustar el footer si es necesario */
+    footer {
+        position: static; /* Dejar de fijar el footer en pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas de hasta 480px de ancho (teléfonos) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .seccion-principal {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .seccion-larga {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .boton-futurista {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    /* Ajustes adicionales si son necesarios */
+}
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 
