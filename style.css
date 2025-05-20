@@ -254,6 +254,11 @@ img{
         padding: 10px 20px;
     }
 
+    .grafic {
+        width:300px;
+        heigth:110px;
+    }
+
     /* Ajustes adicionales si son necesarios */
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
